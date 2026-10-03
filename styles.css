@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: repeat(10, 100px);
+    gap: 10px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #000;
+}
+
+.chess-piece {
+    width: 100px;
+    height: 100px;
+    background-color: #b58863;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    user-select: none;
+}
+
+#kif-file {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 400px;
+}
